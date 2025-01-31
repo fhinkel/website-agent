@@ -13,7 +13,7 @@ async def main():
     agent = Agent(
         task=(
             "Open file:///Users/franzih/code/operator/users.txt. "
-            "For every name in that list, find the user on StackOverflow. You can accept all cookies. What reputation score do they have?. "
+            "Find user835611 on StackOverflow. You can accept all cookies. What reputation score do they have?. "
             "Return a summary of topics they contribute to. "
         ),
         llm=llm,
